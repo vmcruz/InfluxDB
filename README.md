@@ -1,0 +1,1 @@
+Manejador para la base de datos en serie de tiempo InfluxDB

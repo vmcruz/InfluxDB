@@ -1,0 +1,159 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>INFLUXDB | Documentation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/fancy.css" type="text/css" />
+	<link rel="icon" href="img/methodpublic.png" type="image/png" />
+	<script src="js/fancy.js" type="text/javascript"></script>
+	<!-- PrismJS -->
+	<link rel="stylesheet" href="prism/prism.css" type="text/css" />
+	<script src="prism/prism.js" type="text/javascript"></script>
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="fa/css/font-awesome.min.css" type="text/css" />
+	<!-- Menu construction -->
+	<script type="text/javascript">
+		var menuItems = ["InfluxDB|InfluxDB|html||InfluxDB|class",
+"InfluxDB.setPrecision|InfluxDB_setPrecision|html|public|InfluxDB●setPrecision|method",
+"InfluxDB.query|InfluxDB_query|html|public|InfluxDB●query|method",
+"InfluxDB.getPoints|InfluxDB_getPoints|html|public|InfluxDB●getPoints|method",
+"InfluxDB.write|InfluxDB_write|html|public|InfluxDB●write|method",
+"InfluxDB.getErrCode|InfluxDB_getErrCode|html|public|InfluxDB●getErrCode|method",
+"InfluxDB.getErrMessage|InfluxDB_getErrMessage|html|public|InfluxDB●getErrMessage|method",
+"InfluxDB.getErrType|InfluxDB_getErrType|html|public|InfluxDB●getErrType|method",
+"InfluxDB.lastError|InfluxDB_lastError|html|public|InfluxDB●lastError|method",
+];
+	</script>
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<div id="top-menu"><i class="fa fa-bars show" data-child="nav-menu"></i></div><div class="htitle lfloat">INFLUXDB | Documentation</div><div class="hstitle lfloat"></div>
+	</header>
+	<nav data-parent="nav-menu">
+		<div id="search-input">
+			<input type="text" value="" placeholder="buscar..." class="flat-input-search" name="search" id="search" />
+		</div>
+		<div id="nav-menu"></div>
+	</nav>
+		<div id="content">
+		<div id="top-content">
+			<span class="title" id="title" data-current="InfluxDB_setPrecision.html"><img src="img/methodpublic32.png" style="vertical-align: middle; margin-right: 10px;" />InfluxDB.setPrecision <small class="exposure-public">public</small></span>
+			<div class="fancy-btn nav-bar" style="display: block;"></div>
+		</div>
+		<div id="mid-content">
+			<div class="paragraph" id="description">
+				<div class="separator">
+					<span class="subtitle">Descripción</span>
+				</div>
+				<div data-parent="description">
+									<div class="paragraph-text">
+					Especifica la precisión en la que InfluxDB devolverá el timestamp en los queries. Por defecto, InfluxDB devolverá el timestamp en nanosegundos.
+Para especificar una precisión diferente consultar la documentación de InfluxDB: <a href="https://docs.influxdata.com/influxdb/v0.12/guides/querying_data/#other-options-when-querying-data" class="fancy-goto" target="_blank">InfluxDB - Other options when querying data</a>
+				</div>
+				</div>
+			</div>
+			<div class="paragraph" id="prop">
+				<div class="separator">
+					<span class="subtitle">Propiedades</span>
+				</div>
+				<div class="fancy-list">
+					<table class="tbl prop" cellspacing="0" data-parent="prop">
+						
+					</table>
+				</div>
+			</div>
+			<div class="paragraph" id="param">
+				<div class="separator">
+					<span class="subtitle">Parámetros</span>
+				</div>
+				<div class="fancy-list">
+					<table class="tbl param" cellspacing="0" data-parent="param">
+											<tr>
+						<td><img src="img/parameter.png" style="vertical-align: middle"><span class="param-name">precision</span><sup class="param-type param-type-string">String</sup></td>
+						<td>La precisión que se desea utilizar en los queries</td>
+					</tr>
+					</table>
+				</div>
+			</div>
+			<div class="paragraph" id="return">
+				<div class="separator">
+					<span class="subtitle">Retorna</span>
+				</div>
+				<div class="fancy-list">
+					<table class="tbl return" cellspacing="0" data-parent="return">
+						
+					</table>
+				</div>
+			</div>
+			<div class="paragraph" id="notice">
+				<div class="separator">
+					<span class="subtitle"><i class="fa fa-info-circle"></i>&nbsp;&nbsp;Atención</span>
+				</div>
+				<div data-parent="notice">
+					
+				</div>
+			</div>
+			<div class="paragraph" id="warning">
+				<div class="separator">
+					<span class="subtitle"><i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;Advertencia</span>
+				</div>
+				<div data-parent="warning">
+					
+				</div>
+			</div>
+			<div class="paragraph paragraph-h" id="examples">
+				<div class="separator">
+					<span class="subtitle"><i class="fa fa-eye show" data-child="examples" style="margin-right: 5px; margin-top: 5px"></i>Ejemplos</span>
+				</div>
+				<div data-parent="examples">
+									<div class="examples paragraph-text">Ej. Especificar precisión en segundos:
+<pre class="line-numbers language-clike" data-start="1"><code style="margin: 0; padding: 0">$influx = new InfluxDB("estaciones", "umidev", "desarrollo123", "localhost");
+<b>$influx->setPrecision("s")</b>;</code></pre>
+				</div>
+				</div>
+			</div>
+			<div class="paragraph paragraph-h" id="tutorials">
+				<div class="separator">
+					<span class="subtitle"><i class="fa fa-eye show" data-child="tutorials" style="margin-right: 5px; margin-top: 5px"></i>Tutoriales</span>
+				</div>
+				<div class="examples paragraph-text">
+					<ul>
+						<div data-parent="tutorials">
+							
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="paragraph" id="changelog">
+				<div class="separator">
+					<span class="subtitle"><i class="fa fa-history"></i>&nbsp;&nbsp;Log de cambios</span>
+				</div>
+				<div>
+					<table class="fancy-change" data-parent="changelog">
+						
+					</table>
+				</div>
+			</div>
+			<div class="paragraph paragraph-h" id="sourcecode">
+								<div class="separator">
+					<span class="subtitle"><i class="fa fa-eye show" data-child="sourcecode" style="margin-right: 5px; margin-top: 5px"></i>Código fuente</span>
+				</div>
+				<div data-parent="sourcecode" class="sourcecode">
+<pre class="line-numbers language-clike" data-start="66"><code style="margin: 0; padding: 0">public function setPrecision($precision = false) {
+     if($precision) {
+         $this->precision = $precision;
+     }
+ }
+</code></pre>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		var navBar = ["", "", "", "", "", "", ""];
+	</script>
+</div>
+</body>
+</html>
