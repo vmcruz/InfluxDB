@@ -22,7 +22,6 @@
 			@param {String} port - Puerto de la API HTTP de InfluxDB. Opcional, por defecto "8086"
 			@example Ej. Nueva instancia de InfluxDB ~ $influx = <b>new InfluxDB("umidb", "umidev", "desarrollo123", "192.168.1.99")</b>;
 			@version 0.3.0b
-			@contact vmcruz16@gmail.com
 			@created 22/04/2016
 			@updated 27/04/2016
 			@sourcecode {sourcecode:31,54}
